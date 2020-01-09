@@ -1,0 +1,64 @@
+.heading{
+	/*background-color: blue;*/
+	color: #ffffff;
+	padding: 5px .5rem;
+	font-size: 20px;
+}
+.heading-point{
+	font-size: 11px;
+	position: relative;
+	top: -2px;
+	color: #f39524;
+}
+.rounded-top.heading-wrapper{
+	background-color: #3bc2d4;
+	border-bottom: solid .5px #d2d6de;
+}
+.rounded-bottom.body-content-wrapper{
+	background-color: #ffffff;
+	min-height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px));
+	margin-bottom: 3px;
+	padding: 0 20px;
+}
+.footer{
+	background-color: #ffffff;
+	border-top: solid .5px #d2d6de;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 11px;
+}
+.breadcrumb-wrapper{
+	/*text-align: right;*/
+}
+.breadcrumb{
+	background-color: transparent;
+}
+.dataTable {
+	font-size: 14px;
+	text-align: center;
+}
+.dataTable thead tr:first-child{
+	background-color: #3bc2d4;
+	color: #ffffff;
+}
+.dataTable thead tr:first-child th {
+    border: none;
+}
+.dataTable.table-bordered td, .dataTable.table-bordered th{
+	border: none;
+}
+table.dataTable.no-footer{
+	border-bottom: inherit;
+}
+.dataTables_wrapper{
+	font-size: 14px;
+}
+.dataTable thead tr:nth-child(2) th input[type="text"]{
+	padding-left: 8px;
+}
+.dataTable tbody tr:hover {
+    background: #F6F6F5;
+}
+.dataTables_wrapper input, .dataTables_wrapper select, .dataTables_filter input{
+	border: 1px solid #ccc;
+}

@@ -162,28 +162,19 @@
                 <div class="{{config('adminlte.classes_content', 'container-fluid')}}">
                     @yield('content')
                 </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12 footer rounded-top">
-                            <div class="">
-                                <strong>Copyright © 2020-2025 <a href="http://nadyne.com">Nadyne Media Tama</a>.</strong>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
             </div>
             @if(config('adminlte.layout_topnav') || View::getSection('layout_topnav'))
             </div>
             @endif
         </div>
 
-        @hasSection('footer')
         <footer class="main-footer">
-
+            <div class="float-right d-none d-sm-block">
+                <b>Version</b> 1.0.0
+            </div>
+            <strong>Copyright © 2020-2025 <a href="http://nadyne.com" target="_blank">Nadyne Media Tama</a>.</strong> All rights reserved.
             @yield('footer')
         </footer>
-        @endif
 
         @if(config('adminlte.right_sidebar'))
             <aside class="control-sidebar control-sidebar-{{config('adminlte.right_sidebar_theme')}}">

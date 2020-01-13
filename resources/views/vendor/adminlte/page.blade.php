@@ -173,7 +173,6 @@
                 <b>Version</b> 1.0.0
             </div>
             <strong>Copyright © 2020-2025 <a href="http://nadyne.com" target="_blank">Nadyne Media Tama</a>.</strong> All rights reserved.
-            @yield('footer')
         </footer>
 
         @if(config('adminlte.right_sidebar'))
